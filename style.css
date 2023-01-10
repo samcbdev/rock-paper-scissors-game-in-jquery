@@ -1,0 +1,171 @@
+@Import Url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@Import Url("https://fonts.googleapis.com/css?family=Source+Code+Pro:300,500");
+html {
+  box-sizing: Border-Box;
+}
+*,
+*:Before,
+*:After {
+  box-sizing: Inherit;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #24272e;
+  color: #Fff;
+  font-family: "Roboto", Sans-Serif;
+}
+code {
+  font-family: "Source Code Pro", Monospace;
+  font-size: 12px;
+}
+a {
+  font-family: "Source Code Pro", Monospace;
+  color: #Ffcc99;
+}
+a:hover {
+  color: #Ffba76;
+}
+header {
+  background: #Fff;
+  padding: 20px;
+}
+header h1 {
+  color: #444;
+  text-align: Center;
+  font-weight: 100;
+}
+.Score-Board {
+  border: 3px Solid #Fff;
+  width: 300px;
+  margin: 40px Auto;
+  font-size: 40px;
+  border-radius: 4px;
+  text-align: Center;
+  padding: 15px 20px;
+  position: Relative;
+}
+.Badge {
+  background: #E2584d;
+  text-transform: Uppercase;
+  font-size: 14px;
+  padding: 10px 6px;
+}
+#User-Label {
+  position: Absolute;
+  top: 50%;
+  left: -5%;
+  transform: Translate(-10%, -50%);
+}
+#Computer-Label {
+  position: Absolute;
+  top: 50%;
+  right: -5%;
+  transform: Translate(10%, -50%);
+}
+.Result {
+  font-weight: 300;
+  text-align: Center;
+  font-size: 32px;
+  line-height: 40px;
+}
+.Result {
+  line-height: 50px;
+}
+.Choices {
+  margin: 0 Auto;
+  text-align: Center;
+  padding: 40px 0;
+}
+.Choice {
+  display: Inline-Block;
+  border: 3px Solid #Fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: Auto 10px;
+  transition: All 0.3s Ease;
+  cursor: pointer;
+}
+.Choice Img {
+  filter: Invert(100%);
+}
+#Action-Message {
+  text-align: Center;
+  font-weight: 500;
+  text-transform: Uppercase;
+  letter-spacing: 2px;
+  margin: 40px 0;
+}
+.WinningStyles {
+  border: 3px Solid #4dcc7d;
+  background-color: #043507;
+  box-shadow: 0 0 20px #043507;
+}
+.LosingStyles {
+  border: 3px Solid #C52e2e;
+  background-color: #2e0303;
+  box-shadow: 0 0 20px #2e0303;
+}
+.DrawStyles {
+  border: 3px Solid #444;
+  background-color: #222;
+  box-shadow: 0 0 20px #222;
+}
+sup {
+  margin: 0;
+  padding: 0;
+}
+
+/* List */
+.container {
+  width: 470px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.ul-history {
+  font-weight: 300;
+  font-size: 34px;
+  text-align: center;
+  list-style-type: none;
+  /*  margin-left: 33%;*/
+  margin-bottom: 35px;
+
+  /*  width: 550px;*/
+  height: 200px;
+  overflow: auto;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.ul-history::-webkit-scrollbar {
+  display: none;
+}
+
+/* List element */
+.history {
+  font-weight: 300;
+  text-align: left;
+  font-size: 25px;
+  line-height: 40px;
+  margin-left: 0%;
+}
+
+.btn-reset {
+  padding: 7px;
+  border-radius: 20px;
+  font-size: 12px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* footer */
+.footer {
+  text-align: center;
+  bottom:0;
+}

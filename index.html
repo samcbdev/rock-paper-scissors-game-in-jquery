@@ -1,0 +1,49 @@
+<!DOCTYPE Html>
+<html>
+
+<head>
+    <meta charset="Utf-8>" />
+    <meta name="author" content="Samcb">
+    <meta name="description" content="Jquery single player game">
+    <meta name="keywords" content="HTML, CSS, Jquery">
+    <title>Rock Papaer Scissors</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+</head>
+
+<Body>
+    <header>
+        <H1>Rock Paper Scissors</H1>
+    </header>
+    <div class="Score-Board">
+        <div id="User-Label" class="Badge">User</div>
+        <div id="Computer-Label" class="Badge">Comp</div>
+        <span id="user-score">0</span> : <span id="computer-score">0</span>
+    </div>
+    <div class="Result">
+        <p>Start a GAME by choosing one of them!</p>
+    </div>
+    <div class="Choices">
+        <div id="rock" class="Choice">
+            <img Width="48" Height="48" Src="1.Png" />
+        </div>
+        <div id="paper" class="Choice">
+            <img Width="48" Height="48" Src="2.Png" />
+        </div>
+        <div id="scissors" class="Choice">
+            <img Width="48" Height="48" Src="3.Png" />
+        </div>
+        <p id="Action-Message">Make Your Move.</p>
+    </div>
+    <div class="container">
+        <h2 class="text-center">History <button class="btn-reset" id="reset">Reset</button></h2>
+        <ul class="ul-history">
+          <li class="history"></li>
+        </ul>
+    </div>
+    <div class="footer">Copyright @ Samcb </div>
+    <!-- jQuery code for the game -->
+    <script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+    <script Src="script.js" Type="text/javascript"></script>
+</body>
+</html>
